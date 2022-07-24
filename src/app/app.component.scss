@@ -1,0 +1,33 @@
+.counter-container{
+    width: max-content;
+    height: max-content;
+    border: 5px solid blue;
+    border-radius: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    .num{
+        display: flex;
+        align-self: center;
+    }
+
+    .controls{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 5px;
+    }
+
+    input{
+        border: 1px solid #c7c7c7;
+        margin-right: 5px;
+    }
+
+    button{
+        background-color: #5ee78c;
+        color: #ffffff;
+        border: #00000000;
+        margin-right: 5px;
+    }
+}
